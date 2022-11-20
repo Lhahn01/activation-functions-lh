@@ -48,6 +48,36 @@ Apparently, the computational time for ELU increases due to the exponential oper
 
 The mathematical representation of GELU is the following…[^9]
 
+![This is an image](/images/Picture3.png)
+
+This specific activation function combines the properties from dropout, zone out, and ReLU. And apparently, it is better than ReLU and ELU as we can see performance improvements within the domains of computer vision, natural language processing, and speech recognition. 
+
+***What is scaled exponential linear unit (SELU)?***
+The SELU can be mathematically represented by…
+
+![This is an image](/images/Picture4.png)
+
+One of the advantages of using SELU over ReLU is that internal normalization is faster than external normalization, in other words “the network converges faster.”[^10]
+
+## Few of the Sources
+https://www.ijeast.com/papers/310-316,Tesma412,IJEAST.pdf 
+
+This research paper was very helpful in understanding a bit more of the different activation functions as well as the purpose of them when working with neural networks. Another great thing with this paper was that it showed a graph for each of the function to help better understand what the authors were trying to tell us. Sometimes it’s easier to decipher a graph than read a person’s description of how the graph looks like or even looking at an equation. 
+
+https://towardsdatascience.com/the-importance-and-reasoning-behind-activation-functions-4dc00e74db41
+
+This article was also great as it helped assist me understand the activation functions a bit more outside of a research paper. It was a lot clearer to see the advantages and disadvantages that some of these different activation functions have. 
+
+https://www.geeksforgeeks.org/activation-functions-neural-networks/
+
+This page was also a great source for additional help of understanding the activation functions. I liked how they organized the information when talking about the variety of activation functions as it was easier to comprehend right away. For example, the “uses” column was great in helping me figure out what each activation function may be used over others. 
+
+https://arxiv.org/pdf/1511.07289.pdf
+
+The research paper was great in understanding a bit more of what ELU is and how it compares to existing activation functions. It specifically addresses how it is different from ReLU as well as any variants of it. 
+
+
+
 
 [^1]: https://www.ijeast.com/papers/310-316,Tesma412,IJEAST.pdf
 [^2]: Ibid.
@@ -58,3 +88,4 @@ The mathematical representation of GELU is the following…[^9]
 [^7]: https://arxiv.org/pdf/1511.07289.pdf
 [^8]: Ibid.
 [^9]: https://www.v7labs.com/blog/neural-networks-activation-functions
+[^10]: Ibid.

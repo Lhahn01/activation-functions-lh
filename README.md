@@ -30,9 +30,31 @@ This specific activate function is a slight modification to the original ReLU fu
 
 ***What is parametric ReLU?***
 
-The following is the mathematical representation of parametric ReLU.
+The following is the mathematical representation of parametric ReLU.[^4]
+
+![This is an image](/images/Picture1.png)
+
+This specific function tries to solve the problem of the gradient becoming zero for the left half of the axis. Apparently, this is used when leaky ReLU fails to solve the issue with dead neurons.[^5]
+
+***What is exponential linear units (ELU)?***
+
+ELU is similar to ReLU, but it modifies the slope of the negative part of the function. The mathematical representation of ELU is the following…[^6]
+
+![This is an image](/images/Picture2.png)
+
+Apparently, the computational time for ELU increases due to the exponential operation we do. One thing that differentiates ELU from ReLU is that ELU have negative values that “allows them to push mean unit activations closer to zero like batch normalization but with lower computational complexity.”[^7] By doing so, it supposedly speeds up the learning. Although leaky ReLU and parametric ReLU have negative values, ELU is different as it ensures a “noise-robust deactivation state.”[^8]
+
+***What is gaussian error linear unit (GELU)?***
+
+The mathematical representation of GELU is the following…[^9]
 
 
 [^1]: https://www.ijeast.com/papers/310-316,Tesma412,IJEAST.pdf
 [^2]: Ibid.
 [^3]: Ibid.
+[^4]: https://www.educative.io/answers/what-is-parametric-relu
+[^5]: https://www.v7labs.com/blog/neural-networks-activation-functions
+[^6]: Ibid.
+[^7]: https://arxiv.org/pdf/1511.07289.pdf
+[^8]: Ibid.
+[^9]: https://www.v7labs.com/blog/neural-networks-activation-functions

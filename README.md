@@ -6,8 +6,6 @@ The project that I have selected is one of the pre-approved ones, where I would 
 comprehensive analysis of different activation functions. By doing so, I will determine which of the functions provide the most stability or performance enhancements. Some of the activation functions to compare are...
 - Rectified Linear Unit (ReLU)
 - Leaky ReLU
-- Parametric ReLU
-- Exponential Linear Units (ELU)
 - Gaussian Error Linear Unit (GELU)
 - Scaled Exponential Linear Unit (SELU)
 
@@ -28,34 +26,18 @@ This is one of the activate functions that is most widely used in neural network
 
 This specific activate function is a slight modification to the original ReLU function. Rather than having a neuron be deactivated, the neuron’s signal is suppressed. When x is less than or equal to 0, we multiply x by a which is usually a fractional value. And like the original ReLU function, when x is greater than 0, it results into the same value x was. This specific function prevents the scenario when a node might never fire.
 
-***What is parametric ReLU?***
-
-The following is the mathematical representation of parametric ReLU.[^4]
-
-![This is an image](/images/Picture1.png)
-
-This specific function tries to solve the problem of the gradient becoming zero for the left half of the axis. Apparently, this is used when leaky ReLU fails to solve the issue with dead neurons.[^5]
-
-***What is exponential linear units (ELU)?***
-
-ELU is similar to ReLU, but it modifies the slope of the negative part of the function. The mathematical representation of ELU is the following…[^6]
-
-![This is an image](/images/Picture2.png)
-
-Apparently, the computational time for ELU increases due to the exponential operation we do. One thing that differentiates ELU from ReLU is that ELU have negative values that “allows them to push mean unit activations closer to zero like batch normalization but with lower computational complexity.”[^7] By doing so, it supposedly speeds up the learning. Although leaky ReLU and parametric ReLU have negative values, ELU is different as it ensures a “noise-robust deactivation state.”[^8]
-
 ***What is gaussian error linear unit (GELU)?***
 
 The mathematical representation of GELU is the following…[^9]
 
-![This is an image](/images/Picture3.png)
+![This is an image](/images/Picture1.png)
 
 This specific activation function combines the properties from dropout, zone out, and ReLU. And apparently, it is better than ReLU and ELU as we can see performance improvements within the domains of computer vision, natural language processing, and speech recognition. 
 
 ***What is scaled exponential linear unit (SELU)?***
 The SELU can be mathematically represented by…
 
-![This is an image](/images/Picture4.png)
+![This is an image](/images/Picture2.png)
 
 One of the advantages of using SELU over ReLU is that internal normalization is faster than external normalization, in other words “the network converges faster.”[^10]
 

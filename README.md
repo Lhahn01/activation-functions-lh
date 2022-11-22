@@ -3,6 +3,7 @@
 
 ## To Do:
 - [x] Visual representation of all the activation functions
+- [ ] Experiment with different activation functions with a simple MLP problem
 - [ ] Compare between ReLU and Leaky ReLU (vanishing gradients)
 - [ ] Identify how Leaky ReLU deals with dead neurons
 - [ ] Compare between GELU and SELU (...)

@@ -1,6 +1,12 @@
 # Activation Functions - Neural Networks
 **Name:** Lauren Hahn
 
+## To Do:
+- [x] Visual representation of all the activation functions
+- [ ] Compare between ReLU and Leaky ReLU (vanishing gradients)
+- [ ] Identify how Leaky ReLU deals with dead neurons
+- [ ] Compare between GELU and SELU (...)
+
 ## Description
 The project that I have selected is one of the pre-approved ones, where I would run a
 comprehensive analysis of different activation functions. By doing so, I will determine which of the functions provide the most stability or performance enhancements. Some of the activation functions to compare are...

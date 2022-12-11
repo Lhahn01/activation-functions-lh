@@ -3,10 +3,9 @@
 
 ## To Do:
 - [x] Visual representation of all the activation functions
-- [ ] Experiment with different activation functions with a simple MLP problem
+- [x] Experiment with different activation functions with a simple MLP problem
 - [ ] Compare between ReLU and Leaky ReLU (vanishing gradients)
 - [ ] Identify how Leaky ReLU deals with dead neurons
-- [ ] Compare between GELU and SELU (...)
 
 ## Description
 The project that I have selected is one of the pre-approved ones, where I would run a
@@ -14,7 +13,6 @@ comprehensive analysis of different activation functions. By doing so, I will de
 - Rectified Linear Unit (ReLU)
 - Leaky ReLU
 - Gaussian Error Linear Unit (GELU)
-- Scaled Exponential Linear Unit (SELU)
 
 ## Research
 ***What is my goal?***
@@ -40,13 +38,6 @@ The mathematical representation of GELU is the following…[^9]
 ![This is an image](/images/Picture1.png)
 
 This specific activation function combines the properties from dropout, zone out, and ReLU. And apparently, it is better than ReLU and ELU as we can see performance improvements within the domains of computer vision, natural language processing, and speech recognition. 
-
-***What is scaled exponential linear unit (SELU)?***
-The SELU can be mathematically represented by…
-
-![This is an image](/images/Picture2.png)
-
-One of the advantages of using SELU over ReLU is that internal normalization is faster than external normalization, in other words “the network converges faster.”[^10]
 
 ## Few of the Sources
 https://www.ijeast.com/papers/310-316,Tesma412,IJEAST.pdf 

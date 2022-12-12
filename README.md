@@ -13,6 +13,7 @@ comprehensive analysis of different activation functions. By doing so, I will de
 - Rectified Linear Unit (ReLU)
 - Leaky ReLU
 - Parametric ReLU Activation Function
+- Exponential Linear Unit (ELU)
 
 ## Research
 ***What is my goal?***

@@ -12,7 +12,6 @@ The project that I have selected is one of the pre-approved ones, where I would 
 comprehensive analysis of different activation functions. By doing so, I will determine which of the functions provide the most stability or performance enhancements. Some of the activation functions to compare are...
 - Rectified Linear Unit (ReLU)
 - Leaky ReLU
-- Gaussian Error Linear Unit (GELU)
 - Parametric ReLU Activation Function
 
 ## Research
@@ -35,14 +34,6 @@ This specific activate function is a slight modification to the original ReLU fu
 ***What is parametric ReLU?***
 
 This activation function is another varient of ReLU but the alpha of the function is not assigned to us. Instead, it's a parameter that's learn along with weights and biases during the training period.
-
-***What is gaussian error linear unit (GELU)?***
-
-The mathematical representation of GELU is the following…[^9]
-
-![This is an image](/images/Picture1.png)
-
-This specific activation function combines the properties from dropout, zone out, and ReLU. And apparently, it is better than ReLU and ELU as we can see performance improvements within the domains of computer vision, natural language processing, and speech recognition. 
 
 ## Few of the Sources
 https://www.ijeast.com/papers/310-316,Tesma412,IJEAST.pdf 
@@ -67,10 +58,3 @@ The research paper was great in understanding a bit more of what ELU is and how 
 [^1]: https://www.ijeast.com/papers/310-316,Tesma412,IJEAST.pdf
 [^2]: Ibid.
 [^3]: Ibid.
-[^4]: https://www.educative.io/answers/what-is-parametric-relu
-[^5]: https://www.v7labs.com/blog/neural-networks-activation-functions
-[^6]: Ibid.
-[^7]: https://arxiv.org/pdf/1511.07289.pdf
-[^8]: Ibid.
-[^9]: https://www.v7labs.com/blog/neural-networks-activation-functions
-[^10]: Ibid.

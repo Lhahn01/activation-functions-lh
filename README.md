@@ -5,7 +5,7 @@
 - [x] Visual representation of all the activation functions
 - [x] Experiment with different activation functions with a simple MLP problem
 - [x] Compare between ReLU and Leaky ReLU (vanishing gradients)
-- [ ] Identify how Leaky ReLU deals with dead neurons
+- [x] Identify how Leaky ReLU deals with dead neurons
 
 ## Description
 The project that I have selected is one of the pre-approved ones, where I would run a
@@ -13,6 +13,7 @@ comprehensive analysis of different activation functions. By doing so, I will de
 - Rectified Linear Unit (ReLU)
 - Leaky ReLU
 - Gaussian Error Linear Unit (GELU)
+- Parametric ReLU Activation Function
 
 ## Research
 ***What is my goal?***
@@ -30,6 +31,10 @@ This is one of the activate functions that is most widely used in neural network
 ***What is leaky ReLU?***
 
 This specific activate function is a slight modification to the original ReLU function. Rather than having a neuron be deactivated, the neuron’s signal is suppressed. When x is less than or equal to 0, we multiply x by a which is usually a fractional value. And like the original ReLU function, when x is greater than 0, it results into the same value x was. This specific function prevents the scenario when a node might never fire.
+
+***What is parametric ReLU?***
+
+This activation function is another varient of ReLU but the alpha of the function is not assigned to us. Instead, it's a parameter that's learn along with weights and biases during the training period.
 
 ***What is gaussian error linear unit (GELU)?***
 

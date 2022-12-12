@@ -4,7 +4,7 @@
 ## To Do:
 - [x] Visual representation of all the activation functions
 - [x] Experiment with different activation functions with a simple MLP problem
-- [ ] Compare between ReLU and Leaky ReLU (vanishing gradients)
+- [x] Compare between ReLU and Leaky ReLU (vanishing gradients)
 - [ ] Identify how Leaky ReLU deals with dead neurons
 
 ## Description
@@ -17,7 +17,7 @@ comprehensive analysis of different activation functions. By doing so, I will de
 ## Research
 ***What is my goal?***
 
-The goal of my project is to compare the activation functions, specifically those used between hidden layers. With those, I will be figuring out at which situations (when and where) each of the activation function works the best. A possible situation to look at is that some people say to use Leaky ReLU over ReLU when trying to solve the problem of vanishing gradients in ReLU. But what does that mean/entail (is leaky ReLU actually preferred in that situation)? Another possible factor to look at is speed or computational time, where I can see which one may be faster compared to others. Something else to investigate is whether leaky ReLU is actually the best when dealing with dead neurons (and which one specifically).
+The goal of my project is to compare the activation functions, specifically those used between hidden layers. With those, I will be figuring out at which situations (when and where) each of the activation function works the best. A possible situation to look at is that some people say to use Leaky ReLU over ReLU when trying to solve the problem of vanishing gradients in ReLU. But what does that mean/entail (is leaky ReLU actually preferred in that situation)? Something else to investigate is whether leaky ReLU is actually the best when dealing with dead neurons (and which one specifically).
 
 ***What is Activation Function? Why is it important?***
 
